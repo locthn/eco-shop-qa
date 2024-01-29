@@ -1,53 +1,8 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Product Page after Adding Items to Basket,"Navigate to the home page, login, and view recommended products. Add a product to the basket and proceed to the product page. Verify the displayed product page.","step 1: Navigate to Page home
-step 2: At Page home login > navigate to Page home
-step 3: At Page home, click on hyperlink recommended
-step 4: At Page home, click on hyperlink recommended > navigate to Page recommended
-step 5: At Page recommended, click on img object
-step 6: At Page recommended, click on img object > navigate to Page product
-step 7: At Page product, click on button add to basket
-step 8: At Page product, click on hyperlink home
-step 9: At Page product, click on hyperlink home > navigate to Page home
-step 10: At Page home, click on hyperlink see all
-step 11: At Page home, click on hyperlink see all > navigate to Page recommended
-step 12: At Page recommended, click on h5 object
-step 13: At Page recommended, click on h5 object
-step 14: At Page recommended, click on hyperlink view account
-step 15: At Page recommended, click on hyperlink view account > navigate to Page account
-step 16: At Page account, click on li object
-step 17: At Page account, click on li object
-step 18: At Page account, click on li object
-step 19: At Page account, click on li object
-step 20: At Page account, click on hyperlink shop
-step 21: At Page account, click on hyperlink shop > navigate to Page shop
-step 22: At Page shop, click on h5 object
-step 23: At Page shop, click on h5 object > navigate to Page product
-step 24: Add visual checkpoint at Page product",High
-1,Verify Checkout Process with Address and Email Input,"Navigate to the home page, login, and add a product to the basket. Proceed to the checkout page and enter the fullname, address, and email. Verify the checkout page.","step 1: Navigate to Page home
-step 2: At Page home login > navigate to Page home
-step 3: At Page home, click on img object > navigate to Page product
-step 4: At Page product, click on button add to basket
-step 5: At Page product, click on button 1
-step 6: At Page product, click on button check out > navigate to Page checkout
-step 7: At Page checkout, click on button next step
-step 8: At Page checkout, click on input fullname
-step 9: At Page checkout, input on input fullname
-step 10: At Page checkout, click on input address
-step 11: At Page checkout, input on input address
-step 12: At Page checkout, click on input email
-step 13: At Page checkout, input on input email
-step 14: At Page checkout, click on input object
-step 15: At Page checkout, input on input object
-step 16: At Page checkout, click on div object
-step 17: At Page checkout, click on button next step
-step 18: Add visual checkpoint at Page checkout",Trivial
-2,Verify Shopping Page after Signing in for Checkout,Navigate to the home page and add a product to the basket. Proceed to the checkout and sign in. Return to the home page and access the shop page. Verify the displayed shop page.,"step 1: Navigate to Page home
-step 2: At Page home, click on img object > navigate to Page product
-step 3: At Page product, click on button add to basket
-step 4: At Page product, click on svg object
-step 5: At Page product, click on button check out
-step 6: At Page product, click on button sign in to checkout > navigate to Page signin
-step 7: At Page signin login > navigate to Page signin
-step 8: At Page signin login > navigate to Page home
-step 9: At Page home, click on hyperlink shop > navigate to Page shop
-step 10: Add visual checkpoint at Page shop",Trivial
+0,Verify Product Page after Logging In,"Navigate to the featured page, log in, and access the herringbone search page. Input the required information and proceed to view the product. Verify the displayed product page.","step 1: Navigate to Page  featured
+step 2: At Page featured login > navigate to Page featured
+step 3: At Page featured, click on input object > navigate to Page search herringbone
+step 4: At Page search herringbone, input on input object
+step 5: At Page search herringbone, click on svg object
+step 6: At Page search herringbone, click on img object > navigate to Page product
+step 7: Add visual checkpoint at Page product",Trivial
