@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 
@@ -25,7 +25,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_featured/input_object'))
 
 'Step 4: Add visual checkpoint at Page search herringbone'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Search for Herringbone on Featured Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Searching for Herringbone on Featured Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

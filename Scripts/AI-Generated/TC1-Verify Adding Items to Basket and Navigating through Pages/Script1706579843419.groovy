@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 
@@ -105,7 +105,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_shop/h5_object'))
 
 'Step 24: Add visual checkpoint at Page product'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Adding Items to Shopping Basket and Navigating through Pages_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Adding Items to Basket and Navigating through Pages_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

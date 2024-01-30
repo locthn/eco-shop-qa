@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 
@@ -33,7 +33,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/h6_object'))
 
 'Step 6: Add visual checkpoint at Page signin'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Signing In from Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Signing In from Product Page to Signin Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
