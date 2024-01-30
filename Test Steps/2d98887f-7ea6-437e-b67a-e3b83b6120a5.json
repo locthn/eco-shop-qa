@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page featured",
+        "step 2: At Page featured login > navigate to Page featured",
+        "step 3: At Page featured, click on input object > navigate to Page search herringbone",
+        "step 4: At Page search herringbone, input on input object",
+        "step 5: At Page search herringbone, click on svg object",
+        "step 6: At Page search herringbone, click on img object > navigate to Page product",
+        "step 7: Add visual checkpoint at Page product"
+    ]
+}

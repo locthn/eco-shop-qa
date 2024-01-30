@@ -1,6 +1,6 @@
-import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable as GlobalVariable
+import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
@@ -23,9 +23,21 @@ TrueTestScripts.login()
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_featured/input_object'))
 
-'Step 4: Add visual checkpoint at Page search herringbone'
+'Step 4: At Page search herringbone, input on input object'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Search Herringbone Page after Searching for Herringbone_visual_checkpoint')
+WebUI.setText(findTestObject('AI-Generated/Page_search_herringbone/input_object'), input_object)
+
+'Step 5: At Page search herringbone, click on svg object'
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_search_herringbone/svg_object'))
+
+'Step 6: At Page search herringbone, click on img object > navigate to Page product'
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_search_herringbone/img_object'))
+
+'Step 7: Add visual checkpoint at Page product'
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Page after Logging In_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
