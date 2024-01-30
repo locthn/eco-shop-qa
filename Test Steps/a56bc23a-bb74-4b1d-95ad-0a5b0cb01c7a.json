@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home login > navigate to Page home",
+        "step 3: At Page home, click on h2 object > navigate to Page product",
+        "step 4: At Page product, click on button add to basket",
+        "step 5: At Page product, click on button 1",
+        "step 6: At Page product, click on button check out > navigate to Page checkout",
+        "step 7: At Page checkout, click on button next step",
+        "step 8: At Page checkout, click on input fullname",
+        "step 9: At Page checkout, input on input fullname",
+        "step 10: At Page checkout, click on input address",
+        "step 11: At Page checkout, input on input address",
+        "step 12: At Page checkout, click on input email",
+        "step 13: At Page checkout, input on input email",
+        "step 14: At Page checkout, click on input object",
+        "step 15: At Page checkout, input on input object",
+        "step 16: At Page checkout, click on div object",
+        "step 17: At Page checkout, click on button next step",
+        "step 18: Add visual checkpoint at Page checkout"
+    ]
+}
