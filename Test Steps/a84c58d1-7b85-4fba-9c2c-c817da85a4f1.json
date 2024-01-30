@@ -1,6 +1,6 @@
 {
     "steps": [
-        "step 1: Navigate to Page  featured",
+        "step 1: Navigate to Page featured",
         "step 2: At Page featured login > navigate to Page featured",
         "step 3: At Page featured, click on input object > navigate to Page search herringbone",
         "step 4: Add visual checkpoint at Page search herringbone"

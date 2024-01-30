@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -81,7 +81,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_next_step_
 
 'Step 18: Add visual checkpoint at Page checkout'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Process with Address Information_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Page after Entering Address Information_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

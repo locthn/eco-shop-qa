@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -11,7 +11,7 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'Step 1: Navigate to Page  product'
+'Step 1: Navigate to Page product'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/product')
 
@@ -81,7 +81,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_account_edit/button_update
 
 'Step 18: Add visual checkpoint at Page account edit'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Updating Profile Information and Account Edit_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Account Edit Page after Updating Profile_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
