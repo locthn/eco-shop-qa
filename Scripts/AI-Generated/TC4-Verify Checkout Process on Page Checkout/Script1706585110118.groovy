@@ -13,7 +13,7 @@ def setup() {
 
 'Step 1: Navigate to Page home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
 'Step 2: Login into Application'
 
@@ -81,7 +81,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_next_step_
 
 'Step 18: Add visual checkpoint at Page checkout'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Process with Address and Payment Information_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Process on Page Checkout_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -13,7 +13,7 @@ def setup() {
 
 'Step 1: Navigate to Page home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
 'Step 2: Login into Application'
 
@@ -33,7 +33,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/h6_object'))
 
 'Step 6: Add visual checkpoint at Page signin'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Signing In from Product Page to Signin Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Sign in Process on Page Signin_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

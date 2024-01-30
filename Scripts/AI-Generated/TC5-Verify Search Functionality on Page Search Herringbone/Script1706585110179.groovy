@@ -13,7 +13,7 @@ def setup() {
 
 'Step 1: Navigate to Page  featured'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + 'featured')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/featured')
 
 'Step 2: Login into Application'
 
@@ -25,7 +25,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_featured/input_object'))
 
 'Step 4: Add visual checkpoint at Page search herringbone'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Searching for Herringbone on Featured Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Search Functionality on Page Search Herringbone_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

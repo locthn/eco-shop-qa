@@ -13,7 +13,7 @@ def setup() {
 
 'Step 1: Navigate to Page  product'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + 'product')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/product')
 
 'Step 2: Login into Application'
 
@@ -81,7 +81,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_account_edit/button_update
 
 'Step 18: Add visual checkpoint at Page account edit'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Account Profile Editing and Adding Items to Basket_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Account Profile Update on Page Signup_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

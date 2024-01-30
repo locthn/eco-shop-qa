@@ -13,7 +13,7 @@ def setup() {
 
 'Step 1: Navigate to Page home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
 'Step 2: At Page home, click on h2 object > navigate to Page product'
 
@@ -49,7 +49,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_shop'))
 
 'Step 10: Add visual checkpoint at Page shop'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Signing In and Checkout Process from Home to Shop_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Shopping Experience on Page Shop_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
